@@ -15,6 +15,8 @@ This project process the IP packets that received from the Wi-Fi and ETH interfa
 
 The H3 L2 Bridge feature is not used in this project
 
+![](images/block_diagram.png)
+
 ## Software requirement
 
 The sample project has been created and tested with the following Software Development Tools:
