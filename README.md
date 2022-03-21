@@ -1,19 +1,9 @@
----
-parent: Harmony 3 Wireless application examples for PIC32MZ W1 family
-title: Ethernet WiFi Bridge For Ethernet End Node (WFI32 running as STA mode)
-has_children: false
-has_toc: false
-
-family: PIC32MZW1
-function: Ethernet WiFi Bridge For Ethernet End Node (WFI32 running as STA mode)
----
-
-[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
-
-
 # Ethernet WiFi Bridge For Ethernet End Node (WFI32 running as STA mode)
+<img src="images/IoT-Made-Easy-Logo.png" width=100>
 
-This example application acts as a bridge to bridge up WiFi and ETH interface of WFI32 device, WFI32 set as Wi-Fi Station(STA) mode to connect to Access point(AP). The WFI32 device help connect ETH end node to the Access point (AP) in this example.
+> "Wireless Made Easy!" - This example application acts as a bridge to bridge up WiFi and ETH interface of WFI32 device, WFI32 set as Wi-Fi Station(STA) mode to connect to Access point(AP). The WFI32 device help connect ETH end node to the Access point (AP) in this example.
+
+Devices: **WFI32E01**
 
 ## Description
 
@@ -25,11 +15,29 @@ This project process the IP packets that received from the Wi-Fi and ETH interfa
 
 The H3 L2 Bridge feature is not used in this project
 
+## Software requirement
 
+The sample project has been created and tested with the following Software Development Tools:
+- [MPLAB X IDE v5.50](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+- [MPLAB XC32 v3.01](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+- MPLAB Harmony v3.6.4
+   - mhc v3.8.2
+   - csp v3.10.0
+   - core v3.10.0
+   - wireless_wifi v3.7.0 (release soon)
+   - dev_packs v3.10.0
+   - wireless_system_pic32mzw1_wfi32e01 v3.6.1
+   - wolfssl v4.7.0
+   - net v3.7.4
+   - crypto v3.7.4
+   - CMSIS-FreeRTOS v10.3.1
+
+
+Download and install a serial terminal program like [TeraTerm](https://osdn.net/projects/ttssh2/releases/). Launch TeraTerm program and configure the serial ports mounted with: **115200 bps, 8 N 1**
 
 ## Downloading and building the application
 
-To download or clone this application from Github, go to the [top level of the repository](https://github.com/Microchip-MPLAB-Harmony/wireless_apps_pic32mzw1_wfi32e01)
+To download or clone this application from Github, go to the [top level of the repository](https://github.com/MicrochipTech/PIC32MZW1_Ethernet_WIFI_Bridge_For_Ethernet_End_Node)
 
 
 To build the application, refer to the following table and open the project using its IDE.
